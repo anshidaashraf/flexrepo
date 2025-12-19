@@ -1,0 +1,350 @@
+body{
+    background-color: rgb(30, 28, 28);
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    position: sticky;
+    height: 50px;
+}
+.mainclass2 input{
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 5px;
+    /* width: 180px; */
+    height: 30px;    
+}
+.mainclass2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbar button{
+    padding: 5px;
+    margin-right: 60px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.navbar #Profile:hover{
+    background-color: rgb(215, 102, 187);
+    color: white;
+}
+.navbar button:hover{
+    color: rgb(215, 102, 187);
+}
+input[type="text"]{
+    background-color:rgba(128, 128, 128, 0.416);
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+     outline: none;
+}
+.inputcontainer {
+    position: relative;
+    margin-top: 20px;
+}
+.inputcontainer i{
+    position: absolute;
+    top: 25%;
+    left: 34%;
+    color: gray;
+   
+}
+input{
+    padding:10px;
+}
+input::placeholder{
+    padding-left: 30px;
+}
+#profile-img {
+  width: 25px;
+  /* height: 30px; */
+  border-radius: 50%;
+  /* margin-left: 8px; */
+  /* margin-top: 10px; */
+  /* position: absolute; */
+}
+#profile{
+  margin-top: 20px;                   
+  /* padding-top: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.932);
+  padding: 15px;
+  border-radius: 50px;
+  background-color: rgb(44, 42, 42);
+  /* width: 150px; */
+  /* height: 50px; */
+  /* font-size: 10px; */
+
+}
+.maindiv{
+    border: 2px solid white;
+    /* width: 1200px; */
+    height: 2000px;
+    /* margin-left: 350px; */
+    margin-top: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 60px; */
+    background-color: rgb(43, 42, 42);
+    border: none;
+    
+}
+.banner{
+    border: 2px solid white;
+    height: 400px;
+    /* width: 1000px; */
+    border-radius: 25px;
+    margin: 40px;
+    background-image: url(images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+#head1{
+    margin-top: 80px;
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+#sp1{
+    
+    color: rgb(215, 102, 187);
+    font-size: 25px;
+}
+.headings{
+    margin-top: 35px;
+}
+
+#head2 {
+  margin-left: 50px;   /* align with head1 */
+  color: white;
+  margin-top: 25px;
+  line-height: 25px;
+  font-size: 25px;
+}
+.button{
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+#button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(215, 102, 187);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+#button:hover{
+    background-color: white;
+    color: palevioletred;
+}
+.most{
+    /* margin-top: 60px; */
+    /* padding: 30px; */
+    background-color: #1f2122;
+    border-radius: 23px;
+    border: 2px solid white;
+    /* margin: 60px; */
+    height: 750px;
+    width: 1200px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    
+}
+.heading3{
+    margin-top: 50px;  
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+}
+#sp3{
+    color: rgb(215, 102, 187);
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img1{
+    border: 1px solid white;
+    height: 250px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 38px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(44, 42, 42);
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+ .img1 img{
+    width: 110%;
+    margin: 10px;
+    margin-left: 32px;
+    border-radius: 15px;
+ }
+.info h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    line-height: 25px;
+    color: white;
+    margin-left: 10px;
+}
+.imgone ul {
+    color: white;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.imgone {
+   
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+}
+#sp4{
+    color: #404243;
+}
+.ab ul{
+    margin-top: 142px;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 10px; */
+    /* padding-left: 20px; */
+    
+}
+.ab ul li{
+list-style-type: none;
+display: flex;
+align-items: center;
+gap: 5px;
+padding-right: 20px;
+}
+.fa-star{
+    color: yellow;
+}
+.fa-download{
+    color: rgb(215, 102, 187);
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ #fb{
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 530px;
+    padding: 15px;
+    background-color: rgb(215, 102, 187);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+ }
+ #fb:hover{
+    background-color: white;
+    color: pink;
+ }
+ .most2{
+    
+    background-color: #1f2122;
+    border-radius: 23px;
+    border: 2px solid white;
+   margin-top: 30px;
+    width: 1200px;
+    height: 600px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.heading4{
+     margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+    font-size: 25px;
+}
+.games{
+    display: flex;
+    flex-direction: row;
+}
+.gameone{
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+
+}
+#gameimg{
+    margin: 10px;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    width:150px;
+    height: 100px;
+}
+.divdata{
+    margin-top: 22px;
+    margin-left: 15px;
+    border: none;
+}
+.divdata1{
+    margin-top: 22px;
+    margin-left: 75px;
+}
+#gamehead{
+    color: white;
+}
+#sp5{
+    color: gray;
+}
+.divdata1 button{
+    margin-top: 3px;
+    padding: 10px;
+    background-color:transparent;
+    border: 1px solid gray;
+    color:gray;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.divdata1 button:hover{
+border: 1px solid rgba(228, 84, 108, 0.918);
+color: rgba(228, 84, 108, 0.918);
+
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+h5{
+    color: white;
+    text-align: center;
+}
