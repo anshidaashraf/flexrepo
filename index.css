@@ -105,7 +105,7 @@ input::placeholder{
     /* width: 1000px; */
     border-radius: 25px;
     margin: 40px;
-    background-image: url(images/banner-bg.jpg);
+    background-image: url(banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
